@@ -64,17 +64,17 @@ python main.py chemin/vers/fichier.xlsx [-f | -m] taille_fichier [-o dossier_sor
 
 Filtrer sur les numéros fixes et créer des fichiers de 100 lignes :
 ```bash
-python segment_excel.py data.xlsx -f 100
+python main.py data.xlsx -f 100
 ```
 
 Filtrer sur les numéros mobiles et créer des fichiers de 50 lignes avec un dossier de sortie personnalisé :
 ```bash
-python segment_excel.py data.xlsx -m 50 -o resultats
+python main.py data.xlsx -m 50 -o resultats
 ```
 
 Utiliser le mode verbeux pour afficher plus d'informations :
 ```bash
-python segment_excel.py data.xlsx -f 200 -v
+python main.py data.xlsx -f 200 -v
 ```
 
 ## 📁 Structure du projet
@@ -120,6 +120,6 @@ Ce projet est sous licence [MIT](LICENSE).
 
 ## 📧 Contact
 
-Votre Nom - [votre-email@exemple.com](mailto:votre-email@exemple.com)
+MorningStar - 47
 
-Lien du projet : [https://github.com/votre-username/segment-excel](https://github.com/votre-username/segment-excel)
+Lien du projet : [https://github.com/morningstar-47/segment-excel](https://github.com/morningstar-47/segment-excel)
